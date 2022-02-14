@@ -1,0 +1,29 @@
+[23-Jan-2021 21:51:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_after_add_to_cart_quantity' not found or invalid function name in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-includes/class-wp-hook.php on line 287
+[23-Jan-2021 21:51:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_after_add_to_cart_quantity' not found or invalid function name in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-includes/class-wp-hook.php on line 287
+[23-Jan-2021 21:53:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_after_add_to_cart_button' not found or invalid function name in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-includes/class-wp-hook.php on line 287
+[23-Jan-2021 21:53:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_after_add_to_cart_button' not found or invalid function name in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-includes/class-wp-hook.php on line 287
+[25-Jan-2021 04:24:14 UTC] PHP Fatal error:  Cannot redeclare ts_add_text_short_descr() (previously declared in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-content/themes/sparklestore-pro/functions.php:631) in /home4/csenseme/public_html/ourbestportfolio/usraptor/wp-content/themes/sparklestore-pro/functions.php on line 646
+[03-Feb-2021 02:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_string_to_bool() in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php:54
+Stack trace:
+#0 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class-wp-hook.php(287): Woo_Variation_Gallery->{closure}('<script type='t...', 'jquery-core', 'http://ourbestp...')
+#1 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/plugin.php(212): WP_Hook->apply_filters('<script type='t...', Array)
+#2 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(400): apply_filters('script_loader_t...', '<script type='t...', 'jquery-core', 'http://ourbestp...')
+#3 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-dependencies.php(116): WP_Scripts->do_item('jquery-core', 0)
+#4 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(643): WP_Dependencies->do_items(Array, 0)
+#5 /home4/csenseme/public_html/ourbestportfolio/c in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php on line 54
+[03-Feb-2021 02:09:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_string_to_bool() in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php:54
+Stack trace:
+#0 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class-wp-hook.php(287): Woo_Variation_Gallery->{closure}('<script type='t...', 'jquery-core', 'http://ourbestp...')
+#1 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/plugin.php(212): WP_Hook->apply_filters('<script type='t...', Array)
+#2 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(400): apply_filters('script_loader_t...', '<script type='t...', 'jquery-core', 'http://ourbestp...')
+#3 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-dependencies.php(116): WP_Scripts->do_item('jquery-core', 0)
+#4 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(643): WP_Dependencies->do_items(Array, 0)
+#5 /home4/csenseme/public_html/ourbestportfolio/c in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php on line 54
+[03-Feb-2021 02:11:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_string_to_bool() in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php:54
+Stack trace:
+#0 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class-wp-hook.php(287): Woo_Variation_Gallery->{closure}('<script type='t...', 'jquery-core', 'http://ourbestp...')
+#1 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/plugin.php(212): WP_Hook->apply_filters('<script type='t...', Array)
+#2 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(400): apply_filters('script_loader_t...', '<script type='t...', 'jquery-core', 'http://ourbestp...')
+#3 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-dependencies.php(116): WP_Scripts->do_item('jquery-core', 0)
+#4 /home4/csenseme/public_html/ourbestportfolio/charmue/wp-includes/class.wp-scripts.php(643): WP_Dependencies->do_items(Array, 0)
+#5 /home4/csenseme/public_html/ourbestportfolio/c in /home4/csenseme/public_html/ourbestportfolio/charmue/wp-content/plugins/woo-variation-gallery/includes/hooks.php on line 54
