@@ -1,0 +1,65 @@
+== Changelog ==
+
+Version: 2.1.2 (12-01-2021)
+Fix: Advanced Tooltip js conflict in the Elementor editor.
+
+Version: 2.1.1 (10-01-2021)
+New: Introducing Advanced Tooltip - add tooltip to any Widget.
+Fix: Improved Advanced Toggle Widget toggler btn.
+Fix: Missing string translations for Table Widget.
+Fix: List style reset for Gallery Filter.
+
+Version: 2.1.0 (24-12-2020)
+New: Advanced Tab Widget now has option to enable URL hash routing capability.
+New: Option to set popup alignment for Woo Mini Cart Widget.
+Fix: Popup Modal Widget content editor showing same content for multiple widget in the same page.
+Fix: Minor CSS broken issues fixed on Hotspot Widget.
+Fix: Some css broken issues fixed on hotspot
+Fix: added featured category link field 'Woo Category List' widget
+Fix: Buttons white-space are reset to default.
+Fix: Woo Product Carousel and List Widget compatibility with TwentyTwentyOne Theme.
+Fix: CSS ul and ol list style wasn't visible inside widgets.
+
+Version: 2.0.6 (06-12-2020)
+Fix: JS conflict issues fixed with 'Rank Math' plugin.
+Improve: CSS and JS improved.
+
+Version: 2.0.5 (30-11-2020)
+New: Added 'Popup Modal' widget.
+New: Added new instagram widget with Instagram official API.
+New: Added control for keeping one dot always active.
+New: Added Iframe and shortcode support on content.
+Fix: Clicking pointer issues fixed.
+Fix: "Non property" notice in instagram widget.
+Fix: Fixed the line issues when increasing the pointer size.
+Fix: Minor responsive issues fixed.
+
+Version: 2.0.4 (22-11-2020)
+Fix: Timeline's elements was showing after some delay.
+
+Version: 2.0.3 (16-11-2020)
+New: Advanced controls for Conditional Widget.
+New: Cross domain copy-paste module (the long waited feature).
+New: Added default color scheme on Facebook Messenger widget.
+New: Added Locale on Facebook Messenger widget.
+Fix: Caret image missing for Advanced Tab.
+Fix: Ekit button js error when "add section" is clicked.
+Tweak: Instagram feed widget.
+Tweak: Improved CSS & JS.
+
+Version: 2.0.2
+Fix: Facebook feed API.
+Fix: Some spelling mistakes.
+Fix: License activation conflicting.
+
+Version: 2.0.1
+Fix: Instagram's cache issue. Posts were not properly updated.
+
+Version: 2.0.0
+New: New Unfold widget added.
+Fix: Google Map API Script is enqueueing even it's not enabled.
+Fix: Facebook Review Broken issue.
+Fix: HeaderFooter builder compatiblity.
+Added: Pagination to Blog Posts.
+Added: Import & export system for WidgetBuilder module.
+Added: New features: "dribble-feed, facebook-feed, facebook-review, instagram-feed, twitter-feed, trustpilot, unfold, yelp, zoom".

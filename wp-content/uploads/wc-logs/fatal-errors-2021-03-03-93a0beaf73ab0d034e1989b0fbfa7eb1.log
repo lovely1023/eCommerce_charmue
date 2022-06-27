@@ -1,0 +1,12 @@
+2021-03-03T09:20:54+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder::is_invalid_ancestor() must be an instance of Yoast\WP\SEO\Models\Indexable, bool given, called in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php on line 180 and defined in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php:344
+Stack trace:
+#0 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php(180): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->is_invalid_ancestor()
+#1 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php(112): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->add_ancestors_for_post()
+#2 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php(198): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php on line 344
+
+2021-03-03T09:21:14+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder::is_invalid_ancestor() must be an instance of Yoast\WP\SEO\Models\Indexable, bool given, called in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php on line 180 and defined in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php:344
+Stack trace:
+#0 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php(180): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->is_invalid_ancestor()
+#1 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php(112): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->add_ancestors_for_post()
+#2 /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php(198): Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder in /var/www/vhosts/charmue.com/httpdocs/wp-content/plugins/wordpress-seo/src/builders/indexable-hierarchy-builder.php on line 344
+

@@ -1,0 +1,121 @@
+/*Maintenance Page CSS*/
+#cl-maintenance-page {
+    min-height: 100vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+.cl-maintenance-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.cl-maintenance-slide {
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.cl-maintenance-bg:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+.cl-maintenance-bg:after {
+    background-image: url(images/dot.png);
+}
+.cl-maintenance-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+.cl-maintenance-banner {
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.cl-maintenance-video {
+    min-height: 100vh;
+}
+.cl-maintenance-logo {
+    margin-bottom: 40px;
+}
+.cl-maintenance-page h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.cl-maintenance-countdown {
+    margin: 60px 0 30px;
+}
+.cl-maintenance-countdown>.cl-count-label {
+    display: inline-block;
+    margin: 0 40px 30px;
+}
+.cl-maintenance-countdown>.cl-count-label span {
+    display: block;
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cl-maintenance-countdown>.cl-count-label label {
+    text-transform: uppercase;
+}
+
+.cl-maintenance-page header {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cl-maintenance-page footer {
+    margin-top: 80px;
+}
+
+.cl-maintenance-social a {
+    margin: 0 10px;
+}
+
+.cl-maintenance-social .social ul li a:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+}
+
+.mbYTP_wrapper iframe {
+    margin-top: 0 !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cl-maintenance-social ul{
+    padding: 0;
+    margin: 0;
+}
+.cl-maintenance-social ul li {
+    display: inline-block;
+    list-style: none;
+}
+.cl-maintenance-social ul li:first-child a{
+    margin-left: 0;
+}
+.cl-maintenance-social ul li:last-child a{
+    margin-right: 0;
+}
+
+.cl-maintenance-shortcode {
+    text-align: left;
+}
+/** end maintenance */

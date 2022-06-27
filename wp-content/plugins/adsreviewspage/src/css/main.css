@@ -1,0 +1,70 @@
+html {
+	font-size: inherit;
+}
+
+#tr-preview {
+	background: white;
+}
+
+.input-group-gender {
+}
+
+.input-group-gender > .custom-file,
+.input-group-gender > .custom-select,
+.input-group-gender > .form-control {
+	flex: 0 0 60px;
+}
+
+.input-group-gender > .custom-select:not(:last-child),
+.input-group-gender > .form-control:not(:last-child),
+.input-group-gender .input-group-addon:not(:first-child):not(:last-child),
+.input-group-gender .input-group-btn:not(:first-child):not(:last-child),
+.input-group-gender .form-control:not(:first-child):not(:last-child) {
+	border-radius: 2px;
+}
+
+.input-group-gender .input-group-text {
+	/* flex: 1 0 auto; */
+	background: none;
+	border-color: transparent;
+}
+
+.input-group-gender > .form-control[readonly] {
+	background-color: #e9ecef;
+}
+
+.form-group-flex {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+}
+.form-group-flex > *:first-child {
+	flex: 1 0 auto;
+}
+.form-group-flex > *:not(:last-child) {
+	margin-right: 1rem;
+}
+.form-group-flex-disabled {
+	position: relative;
+	opacity: 0.5;
+}
+.form-group-flex-disabled::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+a.btn-gray{color:#000}
+.btn-gray{color:#000;background-color:#f1f3f5;border-color:#f1f3f5}
+.btn-gray:focus,.btn-gray.focus,.btn-gray:hover,.btn-gray:active,.btn-gray.active,.open>.dropdown-toggle.btn-gray,.btn-gray:active:hover,.btn-gray.active:hover,.open>.dropdown-toggle.btn-gray:hover,.btn-gray:active:focus,.btn-gray.active:focus,.open>.dropdown-toggle.btn-gray:focus,.btn-gray:active.focus,.btn-gray.active.focus,.open>.dropdown-toggle.btn-gray.focus{color:#000;background-color:#e9ecef;border-color:#e9ecef}
+.btn-gray:active,.btn-gray.active,.open>.dropdown-toggle.btn-gray{background-image:none}
+.btn-gray.disabled:hover,.btn-gray[disabled]:hover,fieldset[disabled] .btn-gray:hover,.btn-gray.disabled:focus,.btn-gray[disabled]:focus,fieldset[disabled] .btn-gray:focus,.btn-gray.disabled.focus,.btn-gray[disabled].focus,fieldset[disabled] .btn-gray.focus{background-color:#e9ecef;border-color:#e9ecef}
+.btn-gray .badge{color:#f1f3f5;background-color:#000}
+.btn-gray:disabled:hover, .btn-gray:disabled{color:#000;background-color:#dfdfdf;border-color:#dfdfdf}
+
+.btn-refresh { display: none; }
+.btn-refresh-visible { display: inline-block; }

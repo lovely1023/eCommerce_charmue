@@ -1,0 +1,56 @@
+.item-type.item-type-megamenu,
+.item-type.item-type-column,
+.menu-item-mega-menu-active.menu-item-depth-0 .item-type.item-type-default,
+.menu-item-mega-menu-active.menu-item-depth-1 .item-type.item-type-default,
+.field-megamenu,
+.field-megamenu-columns,
+.field-megamenu-heading,
+.field-megamenu-template,
+.field-megamenu-widgetarea,
+.field-category-post {
+	display: none;
+}
+
+.menu-item-mega-menu-active.menu-item-depth-0 .item-type.item-type-megamenu,
+.menu-item-mega-menu-active.menu-item-depth-1 .item-type.item-type-column,
+.menu-item-depth-0 .field-megamenu,
+.menu-item-mega-menu-active.menu-item-depth-0 .field-megamenu-columns,
+.menu-item-mega-menu-active .field-megamenu-heading,
+.menu-item-mega-menu-active .field-megamenu-template,
+.menu-item-mega-menu-active .field-megamenu-widgetarea,
+.menu-item-depth-0 .field-category-post {
+	display: block;
+}
+
+.menu-item-depth-0 .field-megamenu-heading,
+.menu-item-depth-0 .field-megamenu-widgetarea,
+.menu-item-depth-0 .field-megamenu-template {
+	display: none !important;
+}
+
+.field-icon ._select{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0 0 0 10px;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+	color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: middle;
+}
+
+.menu-item-edit-active .menu-item-settings{
+    position: absolute;
+    background: white;
+}

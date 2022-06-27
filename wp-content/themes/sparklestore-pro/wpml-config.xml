@@ -1,0 +1,29 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_sparklestore-pro">
+            <key name="sparklestore_pro_maintenance_title" />
+            <key name="sparklestore_pro_maintenance_text" />
+            <key name="sparklestore_pro_maintenance_date" />
+
+            <key name="sparklestore_pro_top_notice_bar_editor" />
+            <key name="sparklestore_vertical_menu_title" />
+            <key name="sparklestore_pro_top_notice_bar_label" />
+            <key name="sparklestore_vertical_menu_show_all_menu" />
+            <key name="sparklestore_vertical_menu_show_all_menu_close" />
+
+            <key name="sparklestore_pro_banner_title" />
+            <key name="sparklestore_pro_banner_subtitle" />
+            <key name="sparklestore_pro_banner_button_text" />
+            
+            <key name="sparklestore_pro_woo_product_extra_tab_title" />
+            <key name="sparklestore_pro_woo_product_extra_tab" />
+            <key name="sparklestore_pro_woo_single_product_related_title" />
+            <key name="sparklestore_pro_woo_single_product_upsell_title" />
+
+            <key name="sparklestore_blogtemplate_btn" />
+            <key name="sparklestore_pro_gdpr_notice" />
+            <key name="sparklestore_pro_gdpr_confirm_button_text" />
+            <key name="sparklestore_pro_gdpr_button_text" />
+        </key>
+    </admin-texts> 
+</wpml-config>

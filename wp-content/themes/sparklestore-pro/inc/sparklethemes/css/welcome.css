@@ -1,0 +1,220 @@
+.sparkle-welcome-wrap {
+	max-width: 100%;
+	margin-top: 25px;
+}
+
+.sparkle-welcome-content {
+	width: 65%;
+	float: left;
+}
+
+.sparkle-welcome-sidebar {
+	width: 32%;
+	float: right;
+}
+
+.sparkle-welcome-content h3 {
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.sparkle-welcome-intro {
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+ul.sparkle-quick-links {
+	margin: 20px 0 0;
+}
+
+.sparkle-quick-links li {
+	width: 50%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.sparkle-quick-links li a {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.sparkle-welcome-customizer-links {
+	border: 1px solid #eee;
+	background: #fff;
+}
+
+.sparkle-welcome-customizer-links h4 {
+	padding: 15px 30px;
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.4;
+	background: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+
+.sparkle-welcome-customizer-links ul li {
+	padding: 14px 30px;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+}
+
+.sparkle-welcome-customizer-links ul li:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+.sparkle-welcome-customizer-links ul {
+	padding: 0;
+	margin: 0;
+}
+
+.sparkle-welcome-customizer-links ul li a {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.sparkle-support-box {
+	border: 1px solid #eee;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+.sparkle-support-box h5 {
+	padding: 15px;
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.4;
+	background: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+
+.sparkle-support-box h5 .dashicons {
+	margin-right: 6px;
+}
+
+.sparkle-support-box .sparkle-support-content {
+	padding: 15px;
+	margin: 0;
+}
+
+.sparkle-support-box p {
+	margin: 0 0 15px;
+}
+
+
+/** Welcome Notice **/
+.sparkle-welcome-notice-wrap{
+    position: relative;
+    padding: 20px;
+}
+
+.sparkle-welcome-notice-wrap h2{
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.notice .sparkle-welcome-notice-wrap > p{
+    font-size: 16px;
+    margin: 0 0 25px;
+}
+
+.sparkle-welcome-info{
+    display: flex;
+}
+
+.sparkle-welcome-info .sparkle-welcome-thumb{
+    width: 25%;
+    margin-right: 40px;
+}
+
+.sparkle-welcome-info > .sparkle-welcome-import,
+.sparkle-welcome-info > .sparkle-welcome-getting-started{
+    width: 25%;
+    margin-right: 40px;
+}
+
+.sparkle-welcome-thumb img{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sparkle-welcome-info h3{
+    margin: 0 0 15px;
+}
+
+.notice .sparkle-welcome-info p{
+    margin: 0 0 20px;
+}
+
+.sparkle-welcome-info .button{
+    margin: 0;
+    padding: 12px 36px;
+    height: auto;
+    line-height: 1.5;
+    white-space: normal;
+}
+
+.sparkle-welcome-info .button-primary.updating-message:before{
+    margin: 0px 5px 0 0;
+    height: auto;
+    font-size: 18px;
+}
+
+.sparkle-welcome-notice-wrap .notice-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.sparkle-welcome-notice-wrap .notice-close:before{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transition: all .1s ease-in-out;
+    color: #72777c;
+    content: "\f153";
+    display: block;
+    font: normal 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.sparkle-welcome-notice-wrap .notice-close:hover,
+.sparkle-welcome-notice-wrap .notice-close:hover:before{
+    color: #FF0000;
+}
+
+@media(max-width: 1024px){
+	.sparkle-welcome-info .sparkle-welcome-thumb,
+	.sparkle-welcome-info > .sparkle-welcome-import,
+	.sparkle-welcome-info > .sparkle-welcome-getting-started{
+		width: 50%;
+	}
+}
+@media (max-width: 678px){
+	.sparkle-welcome-info .sparkle-welcome-thumb{
+		display: none;
+	}
+	.sparkle-welcome-content,
+	.sparkle-welcome-sidebar{
+		width:100%;
+	}
+}
+@media (max-width: 500px){
+	.sparkle-welcome-info {
+		display: block;
+		text-align: center;
+	}
+	.sparkle-welcome-info > .sparkle-welcome-import, .sparkle-welcome-info > .sparkle-welcome-getting-started {
+		width: 100%;
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,237 @@
+.menu-search-form.widget_search {
+    position: relative;
+    margin: 10px 5px;
+}
+/**
+ * Close Menu
+*/
+.showing-menu-modal::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    background-color: rgba(0,0,0,.7);
+}
+/****
+ * Mobile Menu Modal
+*/
+.menu-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 500;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 350px;
+    transition: -webkit-transform .25s ease;
+    transition: transform .25s ease;
+    transition: transform .25s ease,-webkit-transform .25s ease;
+    background-color: #ffffff;
+}
+.admin-bar .menu-modal {
+    top: 32px;
+}
+.menu-modal{
+    display: flex;
+    right: auto;
+    left: 0;
+    -webkit-transform: translate3d(-350px,0,0);
+    transform: translate3d(-350px,0,0);
+}
+.menu-modal.active {
+    left: 0;
+    right: 0;
+    -webkit-transform: none;
+    transform: none;
+}
+.menu-modal-inner.modal-inner {
+    width: 100%;
+}
+.spwp-close-btn-box{
+    text-align:center;
+}
+button.close-nav-toggle {
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding: 5px 30px;
+    width: 90%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+button.close-nav-toggle i + span,
+button.close-nav-toggle span + i {
+    margin-left: 10px;
+}
+div#spwp-header-menu-sidebar .quickinfo *{
+    color: black;
+}
+div#spwp-header-menu-sidebar ul {
+    margin-left: 0;
+    list-style: none;
+}
+
+
+/******
+ * Menu Tabs
+*/
+.menu-modal .sparkle-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(129,129,129,.2);
+    background-color: rgba(0,0,0,.04);
+}
+.menu-modal .sparkle-tabs .sparkle-tab {
+    position: relative;
+    flex: 1 0 50%;
+    padding: 18px 15px;
+    max-width: 50%;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: background-color .25s ease,color .25s ease;
+    color: #909090;
+    background: transparent;
+    border-radius: 0;
+}
+.menu-modal .sparkle-tabs .sparkle-tab.sparkle-active{
+    background-color: rgba(0,0,0,.05);
+    color: #333;  
+}
+/***
+ * Main Menu 
+*/
+.modal-menu {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.modal-menu li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal-menu li a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    min-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.3;
+    border-bottom: 1px solid rgba(129,129,129,.2);
+    color: #2d2a2a;
+    flex: 1;
+}
+.modal-menu li.menu-item-has-children > a {
+    flex: 83%;
+}
+/* .modal-menu > li > a,
+.modal-menu > li > .ancestor-wrapper > a {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.modal-menu > li:last-child {
+    border-bottom-width: 0.1rem;
+} */
+/***********
+ * Sub Menu
+*/
+/* .modal-menu .ancestor-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+.modal-menu .sub-menu-toggle {
+    padding-right: 0;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid rgba(129,129,129,.2);
+    border-bottom: 1px solid rgba(129,129,129,.2);
+    color: #2d2a2a;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color .25s ease,color .25s ease;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    flex: 17%;
+    margin: 0;
+}
+span.sub-menu-toggle i {
+    transition: transform 0.15s linear;
+}
+span.sub-menu-toggle.active i {
+    transform: rotate(180deg);
+}
+.modal-menu li ul.sub-menu{
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background: 0 0;
+    box-shadow: none;
+    -webkit-transform: none;
+    transform: none;
+    pointer-events: visible;
+    pointer-events: unset;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    flex: 1;
+}
+.modal-menu .sub-menu-toggle.active {
+    background: #f33c3c;
+    color: white;
+}
+.modal-menu li ul.sub-menu.active {
+    opacity: 1;
+    visibility:visible;
+    height: auto;
+    
+    -webkit-transform: none;
+    transform: none;
+    transition: opacity .5s ease,height .5s ease,-webkit-transform .5s ease;
+    transition: opacity .5s ease,height .5s ease,transform .5s ease;
+    transition: opacity .5s ease,height .5s ease,transform .5s ease,-webkit-transform .5s ease;
+}
+.sp-toggle-nav-icon{
+    border-radius: 0;
+    background:transparent;
+    padding:0;
+    color: #000;
+}
+@media (max-width: 782px) {
+
+    .admin-bar .menu-modal {
+        top: 46px;
+    }
+}
+@media (max-width: 375px){
+    .menu-modal.active{
+        width:90%;
+    }
+}

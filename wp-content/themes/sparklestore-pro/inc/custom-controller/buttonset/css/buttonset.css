@@ -1,0 +1,74 @@
+.customize-control-sparklewp-buttonset .buttonset {
+    display: inline-block;
+    margin: 2px;
+  }
+  .customize-control-sparklewp-buttonset .buttonset .switch-input {
+    display: none;
+  }
+  .customize-control-sparklewp-buttonset .buttonset .switch-input:checked + .switch-label {
+    background-color: #275cf6;
+    color: #fff;
+  }
+  .customize-control-sparklewp-buttonset .buttonset .switch-input:checked + .switch-label:before {
+    color: #fff;
+  }
+  .customize-control-sparklewp-buttonset .buttonset .switch-label {
+    float: left;
+    background-color: #f5f5f5;
+    color: #555;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 3px;
+  }
+  .customize-control-sparklewp-buttonset .buttonset .switch-label:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  /**
+   Respoinsive button set
+   */
+  
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-fields .sparklewp-responsive-buttonset-title-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-device-wrap .switch-input {
+  display: none;
+}
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-device-wrap .switch-input:checked + .switch-label {
+  background-color: #275cf6;
+  color: #fff;
+}
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-device-wrap .switch-input:checked + .switch-label:before {
+  color: #fff;
+}
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-device-wrap .switch-label {
+  float: left;
+  background-color: #f5f5f5;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 3px;
+}
+.customize-control-sparklewp-responsive-buttonset .sparklewp-responsive-buttonset-device-wrap .switch-label:not(:last-child) {
+  margin-right: 5px;
+}

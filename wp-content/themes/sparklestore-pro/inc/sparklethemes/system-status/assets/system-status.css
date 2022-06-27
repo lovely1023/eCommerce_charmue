@@ -1,0 +1,101 @@
+.system-status-wrap * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sparklestore-pro-system-status-report,
+.sparklestore-pro-system-status,
+.sparklestore-pro-system-status-notice {
+	max-width: 1000px;
+}
+
+.sparklestore-pro-system-status-report {
+	background: #FFF;
+	border: 1px solid #e1e1e1;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+.sparklestore-pro-system-status-report p {
+	margin-top: 0;
+}
+
+.sparklestore-pro-system-status table.widefat {
+	margin-bottom: 30px;
+}
+
+.sparklestore-pro-system-status table.widefat th {
+	font-weight: bold;
+}
+
+.sparklestore-pro-system-status table th,
+.sparklestore-pro-system-status table td {
+	padding: 15px;
+}
+
+.sparklestore-pro-system-status table td.title {
+	width: 20%;
+}
+
+.sparklestore-pro-system-status table td.help {
+	width: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.sparklestore-pro-system-status .help span {
+	position: absolute;
+	left: 50%;
+	bottom: 100%;
+	background: #111;
+	padding: 10px;
+	padding: 10px;
+	display: block;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 300px;
+}
+
+.sparklestore-pro-system-status .help span:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	border-color: #111 transparent transparent transparent;
+	border-width: 10px;
+	border-style: solid;
+	margin-left: -10px;
+}
+
+.sparklestore-pro-system-status .help span {
+	display: none;
+}
+
+.sparklestore-pro-system-status .help i:hover+span {
+	display: block;
+}
+
+.sparklestore-pro-system-status .right,
+.sparklestore-pro-system-status .right a {
+	color: #58c309;
+}
+
+.sparklestore-pro-system-status .wrong,
+.sparklestore-pro-system-status .wrong a {
+	color: #F00;
+}
+
+.sparklestore-pro-system-status table td.description .choice {
+	font-size: 1.75em;
+}
+
+
+/*remove update section from revolution slider*/
+
+#activation_dw,
+#updates_dw,
+.rs-update-history-wrapper {
+	display: none !important;
+}

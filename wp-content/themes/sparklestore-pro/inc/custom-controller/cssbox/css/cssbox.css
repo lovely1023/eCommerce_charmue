@@ -1,0 +1,184 @@
+.responsive-switchers-cssboxfields .groupcssbox-device-wrap,
+.responsive-switchers-cssboxfields .tabscssbox-device-wrap, .customize-control-sparklewp-cssbox .responsive-switchers-fields .cssbox-device-wrap {
+  visibility: hidden;
+  opacity: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  height: 0;
+}
+.responsive-switchers-cssboxfields .groupcssbox-device-wrap li,
+.responsive-switchers-cssboxfields .tabscssbox-device-wrap li, .customize-control-sparklewp-cssbox .responsive-switchers-fields .cssbox-device-wrap li {
+  padding: 2px;
+}
+.responsive-switchers-cssboxfields .groupcssbox-device-wrap li label > span,
+.responsive-switchers-cssboxfields .tabscssbox-device-wrap li label > span, .customize-control-sparklewp-cssbox .responsive-switchers-fields .cssbox-device-wrap li label > span {
+  display: block;
+  margin-bottom: 5px;
+}
+.responsive-switchers-cssboxfields .active.groupcssbox-device-wrap,
+.responsive-switchers-cssboxfields .active.tabscssbox-device-wrap, .customize-control-sparklewp-cssbox .responsive-switchers-fields .active.cssbox-device-wrap {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  -webkit-transition: opacity 0.7s ease-in-out 0.2s, height 0.9s ease-in-out 0.3s;
+  -moz-transition: opacity 0.7s ease-in-out 0.2s, height 0.9s ease-in-out 0.3s;
+  -o-transition: opacity 0.7s ease-in-out 0.2s, height 0.9s ease-in-out 0.3s;
+  transition: opacity 0.7s ease-in-out 0.2s, height 0.9s ease-in-out 0.3s;
+}
+
+#customize-theme-controls .customize-pane-child.current-panel-parent, .in-sub-panel #customize-theme-controls .customize-pane-child.current-panel-parent {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.customize-control-sparklewp-cssbox {
+  margin-top: 10px;
+}
+.customize-control-sparklewp-cssbox .responsive-switchers-fields {
+  clear: both;
+  margin-top: 10px;
+}
+.customize-control-sparklewp-cssbox .cssbox-field-control-wrap .cssbox-field-control {
+  position: relative;
+}
+.customize-control-sparklewp-cssbox .cssbox-field-control-wrap .cssbox-field-control .responsive-switchers {
+  position: absolute;
+  right: 8px;
+  top: -5px;
+}
+
+/* Custom Checkbox */
+.field-link {
+    display: block;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    position: relative;
+    width: 22px;
+    margin: 0 auto;
+  }
+  .field-link .cssbox_link,
+  .field-link .groupcssbox_link,
+  .field-link .tabscssbox_link {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  .field-link .cssbox_link, .field-link .cssbox_link:after, .field-link .cssbox_link:before, .field-link .cssbox_link *, .field-link .cssbox_link *:after, .field-link .cssbox_link *:before, .field-link .cssbox_link + .tgl-btn,
+  .field-link .groupcssbox_link,
+  .field-link .groupcssbox_link:after,
+  .field-link .groupcssbox_link:before,
+  .field-link .groupcssbox_link *,
+  .field-link .groupcssbox_link *:after,
+  .field-link .groupcssbox_link *:before,
+  .field-link .groupcssbox_link + .tgl-btn,
+  .field-link .tabscssbox_link,
+  .field-link .tabscssbox_link:after,
+  .field-link .tabscssbox_link:before,
+  .field-link .tabscssbox_link *,
+  .field-link .tabscssbox_link *:after,
+  .field-link .tabscssbox_link *:before,
+  .field-link .tabscssbox_link + .tgl-btn {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .field-link .cssbox_link::selection, .field-link .cssbox_link:after::selection, .field-link .cssbox_link:before::selection, .field-link .cssbox_link *::selection, .field-link .cssbox_link *:after::selection, .field-link .cssbox_link *:before::selection, .field-link .cssbox_link + .tgl-btn::selection,
+  .field-link .groupcssbox_link::selection,
+  .field-link .groupcssbox_link:after::selection,
+  .field-link .groupcssbox_link:before::selection,
+  .field-link .groupcssbox_link *::selection,
+  .field-link .groupcssbox_link *:after::selection,
+  .field-link .groupcssbox_link *:before::selection,
+  .field-link .groupcssbox_link + .tgl-btn::selection,
+  .field-link .tabscssbox_link::selection,
+  .field-link .tabscssbox_link:after::selection,
+  .field-link .tabscssbox_link:before::selection,
+  .field-link .tabscssbox_link *::selection,
+  .field-link .tabscssbox_link *:after::selection,
+  .field-link .tabscssbox_link *:before::selection,
+  .field-link .tabscssbox_link + .tgl-btn::selection {
+    background: none;
+  }
+  .field-link .cssbox_link + .tgl-btn,
+  .field-link .groupcssbox_link + .tgl-btn,
+  .field-link .tabscssbox_link + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: auto;
+    height: 14px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 3px;
+  }
+  .field-link .cssbox_link + .tgl-btn:after, .field-link .cssbox_link + .tgl-btn:before,
+  .field-link .groupcssbox_link + .tgl-btn:after,
+  .field-link .groupcssbox_link + .tgl-btn:before,
+  .field-link .tabscssbox_link + .tgl-btn:after,
+  .field-link .tabscssbox_link + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .field-link .cssbox_link + .tgl-btn:after,
+  .field-link .groupcssbox_link + .tgl-btn:after,
+  .field-link .tabscssbox_link + .tgl-btn:after {
+    left: 0;
+  }
+  .field-link .cssbox_link + .tgl-btn:before,
+  .field-link .groupcssbox_link + .tgl-btn:before,
+  .field-link .tabscssbox_link + .tgl-btn:before {
+    display: none;
+  }
+  .field-link .cssbox_link:checked + .tgl-btn:after,
+  .field-link .groupcssbox_link:checked + .tgl-btn:after,
+  .field-link .tabscssbox_link:checked + .tgl-btn:after {
+    left: 50%;
+  }
+  .field-link .cssbox_link + .tgl-btn,
+  .field-link .groupcssbox_link + .tgl-btn,
+  .field-link .tabscssbox_link + .tgl-btn {
+    padding: 2px;
+    transition: all 0.2s ease;
+    background: #fff;
+    border: 1px solid #c4cfd7;
+    border-radius: 2em;
+  }
+  .field-link .cssbox_link + .tgl-btn:after,
+  .field-link .groupcssbox_link + .tgl-btn:after,
+  .field-link .tabscssbox_link + .tgl-btn:after {
+    transition: all 0.2s ease;
+    background: #c4cfd7;
+    content: "";
+    border-radius: 1em;
+  }
+  .field-link .cssbox_link:checked + .tgl-btn,
+  .field-link .groupcssbox_link:checked + .tgl-btn,
+  .field-link .tabscssbox_link:checked + .tgl-btn {
+    border: 1px solid #275cf6;
+  }
+  .field-link .cssbox_link:checked + .tgl-btn:after,
+  .field-link .groupcssbox_link:checked + .tgl-btn:after,
+  .field-link .tabscssbox_link:checked + .tgl-btn:after {
+    left: 50%;
+    background: #275cf6;
+  }
+  
